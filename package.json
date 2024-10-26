@@ -1,0 +1,27 @@
+{
+  "name": "rammerhead",
+  "version": "1.0.0",
+  "description": "Rammerhead easy deployment version.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amethystnetwork-dev/Rammerhead.git"
+  },
+  "author": "binary-person and Amethyst Network contributors",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/amethystnetwork-dev/Rammerhead/issues"
+  },
+  "homepage": "https://github.com/amethystnetwork-dev/Rammerhead#readme",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "connect": "^3.7.0",
+    "is-port-free": "^1.0.7",
+    "rammerhead": "github:Quartinal/rammerhead-443#browser",
+    "serve-static": "^1.15.0"
+  }
+}
